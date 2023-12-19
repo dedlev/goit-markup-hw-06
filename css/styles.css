@@ -444,7 +444,7 @@ p {
   margin-right: 7px;
   fill: var(--primary-text-color);
 
-  transition: opacity 250ms var(--timing-function);
+  transition: fill 250ms var(--timing-function);
 }
 
 .checkbox-check {
