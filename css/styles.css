@@ -316,6 +316,7 @@ p {
   top: 8px;
   right: 8px;
   fill: #000000;
+  stroke: rgba(0, 0, 0, 0.1);
 
   cursor: pointer;
 
@@ -831,7 +832,8 @@ p {
   transition: outline 250ms var(--timing-function);
 }
 
-.subscribe-input:focus {
+.subscribe-input:focus,
+.subscribe-input:not(:placeholder-shown) {
   outline: 1px solid rgba(255, 255, 255, 0.3);
   outline-offset: -2px;
   color: var(--primary-white-color);
